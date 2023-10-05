@@ -1,0 +1,37 @@
+[
+    {
+      "name": "The Green Mile",
+      "year": "1999",
+      "genre": "drama, fantasy, crime",
+      "directed_by": "Frank Darabont",
+      "budget": "$30 000 000"
+    },
+    {
+      "name": "The Shawshank Redemption",
+      "year": "1994",
+      "genre": "drama",
+      "directed_by": "Frank Darabont",
+      "budget": "$25 000 000"
+    },
+    {
+      "name": "Forrest Gump",
+      "year": "1994",
+      "genre": "drama, comedy, melodrama, history, war",
+      "directed_by": "Robert Zemeckis",
+      "budget": "$55 000 000"
+    },
+    {
+      "name": "Intouchables",
+      "year": "2011",
+      "genre": "drama, comedy, biography",
+      "directed_by": "Éric Toledano, Olivier Nakache",
+      "budget": "€9 500 000"
+    },
+    {
+      "name": "Schindler's List",
+      "year": "1993",
+      "genre": "drama, biography, history, military",
+      "directed_by": "Steven Spielberg",
+      "budget": "$22 000 000"
+    }
+]

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/FilmLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FilmName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"  />
+        <TextView
+            android:id="@+id/FilmYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="year"  />
+        <TextView
+            android:id="@+id/FilmGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="genre"  />
+        <TextView
+            android:id="@+id/DirectedBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DirectedBy"  />
+        <TextView
+            android:id="@+id/Budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget"  />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/GetFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get random film"
+        android:onClick="onClick" />
+
+    <TextView
+        android:id="@+id/NoFilmsLeft"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="No films left" />
+
+</LinearLayout>
